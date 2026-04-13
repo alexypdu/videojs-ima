@@ -49,8 +49,7 @@ var Ads = function() {
   };
 
   this.contents =
-      ['//commondatastorage.googleapis.com/gtv-videos-bucket/sample/' +
-          'BigBuckBunny.mp4',
+      ['//storage.googleapis.com/interactive-media-ads/media/big_buck_bunny.mp4',
         '//s0.2mdn.net/4253510/google_ddm_animation_480P.mp4'];
   this.posters = ['../posters/bbb_poster.jpg', '../posters/stock_poster.jpg'];
   this.currentContent = 0;

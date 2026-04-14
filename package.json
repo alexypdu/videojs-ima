@@ -58,7 +58,7 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@xmldom/xmldom": "^0.8.12",
-    "axios": "^1.8.4",
+    "axios": "^1.15.0",
     "child_process": "^1.0.2",
     "chromedriver": "^147.0.2",
     "conventional-changelog-cli": "^5.0.0",

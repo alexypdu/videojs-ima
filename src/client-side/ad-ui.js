@@ -360,7 +360,7 @@ AdUi.prototype.changeVolume = function(event) {
   // Bounds value 0-100 if mouse is outside slider region.
   percent = Math.min(Math.max(percent, 0), 100);
   this.sliderLevelDiv.style.width = percent + '%';
-  if (this.percent == 0) {
+  if (percent == 0) {
     this.addClass(this.muteDiv, 'ima-muted');
     this.removeClass(this.muteDiv, 'ima-non-muted');
   } else {
